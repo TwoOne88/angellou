@@ -1,0 +1,15 @@
+.vidgallery{
+    display: inline-block;
+    border: 5px solid hsl(60, 94%, 82%);
+    margin: 5px;
+    width: 200px;
+    
+}
+.vidgallery video{
+    width: 100%;
+    height: auto;
+}
+
+.vidgallery video:hover{
+    border: 5px solid  hsla(184, 82%, 56%, 0.521);
+}

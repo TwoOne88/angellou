@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(350, 100%, 91%);
+    margin: 0;
+
+}
+
+header{
+    text-align: center;
+    background-color: hsla(184, 82%, 56%, 0.521);
+
+}
+h1{
+    font-family: Rubik Doodle Shadow;
+    font-weight: bold;
+    color:hsl(60, 94%, 82%);
+}
+
+.navbar ul{
+
+    list-style: none;
+    background-color: hsl(60, 94%, 82%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsla(184, 82%, 56%, 0.521);
+    text-decoration: underline;
+}
+.navbar li{
+    float: left;
+}
+aside{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    font-family: Gaegu;
+ 
+ 
+}
+section{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    font-family: Gaegu;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color:  hsla(184, 82%, 56%, 0.521);
+    margin: 5px;
+
+}
+footer img{
+    width: 30px;
+}
+.img1{
+    height: 150px;
+    float: left;
+    border: 3px solid hsl(60, 94%, 82%);
+}
+.pictures{
+    text-align: center;
+    font-family: Gaegu;
+    text-decoration: none;
+
+}
+.pictures img{
+    height: 250px;
+    border: 3px solid hsl(60, 94%, 82%);
+    position: sticky;
+}
+.pictures img:hover{
+    border: 5px solid  hsla(184, 82%, 56%, 0.521);
+}   
+.vid{
+    text-align: center;
+    font-family: Gaegu;
+    text-decoration: none;
+
+}
+.vid video:hover{
+    border: 5px solid  hsla(184, 82%, 56%, 0.521);
+}
+.message{
+    text-align: center;
+    font-family: Gaegu;
+}
+.mess{
+    border: 5px solid  hsl(60, 94%, 82%);
+    text-align: center;
+    margin: 0 auto;
+    width: 325px;
+    height: 400px;
+    background: url(images/love.jpeg);
+   background-position: center;
+   font-family: Gaegu;
+   color: green;
+}
+main{
+    
+
+}

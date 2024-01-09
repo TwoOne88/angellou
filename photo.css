@@ -1,0 +1,25 @@
+.photogal{
+    display: inline-block;
+    border: 3px solid hsl(60, 94%, 82%);
+    margin: 5px;
+    width: 200px;
+}
+.photogal:hover{
+    border: 5px solid  hsla(184, 82%, 56%, 0.521);
+}
+.photogal img{
+    width: 100%;
+    height: auto;
+}
+.photolarge img{
+    width: 125px;
+    height: auto;
+}
+.photolarge{
+    display: inline-block;
+    border: 3px solid hsl(60, 94%, 82%);
+    margin: 5px;
+}
+.photolarge:hover{
+    border: 5px solid  hsla(184, 82%, 56%, 0.521);
+}
